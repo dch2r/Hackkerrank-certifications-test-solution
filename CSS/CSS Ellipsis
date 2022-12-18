@@ -1,1 +1,6 @@
+/*
+If an element extends beyond the allocated width, how do you truncate the sentence with an ellipsis (...) using CSS?
+For example, "Hello! I am an element, and my width is larger than the container..
+Pick ONE OR MORE options
+*/
 
