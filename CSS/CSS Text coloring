@@ -1,0 +1,13 @@
+/*
+Which of the following renders the text red?
+<p id="tagld">Please color me red</p>
+Pick ONE OR MORE options
+*/
+
+(wrong)------>:root { --text-color: red; } p { color: --text-color; }
+
+(wrong)------>:root { --text-color: red; } p { color: var(--text-color); }
+
+(correct)------>#tagId { color: red; } p { color: blue; }
+
+(correct)------>p { color: red !important; } #tagId { color: blue; }
