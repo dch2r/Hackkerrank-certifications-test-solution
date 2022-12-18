@@ -1,0 +1,14 @@
+/*
+Which of the following options can position the div with the class name "child" exactly at the center of the page?
+<div class="parent" style="width: 100vw; height: 100vh;">
+<div class="child" stvle=" height: 100px; width: 100px; background: black"></div> </div>
+Pick ONE OR MORE options
+*/
+
+(wrong)------> .parent { display: flex; justify-content: center; align-items: center; }
+
+(wrong)------> .parent { display: flex; justify-content: center; align-self: center; }
+
+(wrong)------> .parent { position: relative;} .child { position: absolute; top: 50%; left: 50%; }
+
+(correct)------> .parent { position: relative;} .child { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
