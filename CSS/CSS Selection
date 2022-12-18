@@ -1,0 +1,13 @@
+/*
+How do you prevent the user from selecting the text rendered inside the following element?
+<p>| should not be selectable</p>
+Pick ONE OR MORE options
+*/
+
+(wrong)-----> p { cursor-event: none; }
+
+(wrong)-----> p { pointer-events: none; }
+
+(correct)-----> p { user-select: none; }
+
+(wrong)-----> None of the above
