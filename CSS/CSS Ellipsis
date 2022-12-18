@@ -4,3 +4,10 @@ For example, "Hello! I am an element, and my width is larger than the container.
 Pick ONE OR MORE options
 */
 
+(wrong)----->{ white-space: pre-wrap; overflow: ellipsis; }
+
+(wrong)----->{ text-overflow: ellipsis; white-space: wrap; visibility: hidden; }
+
+(correct)----->{ white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+(wrong)----->None of the above
