@@ -1,19 +1,18 @@
-/*
-Rectangle:
-• The constructor for Rectangle must take two arguments that denote the lengths of the rectangle's sides.
-• The class must have an area method that returns the area of the rectangle.
+#/*
+#Rectangle:
+#• The constructor for Rectangle must take two arguments that denote the lengths of the rectangle's sides.
+#• The class must have an area method that returns the area of the rectangle.
 
-Circle:
-• The constructor for Circle must take one argument that denotes the radius of the circle.
-• The Circle class must have an area method that returns the area of the circle. To implement the area method, use a precise Pi value, preferably the constant math.pi.
+#Circle:
+#• The constructor for Circle must take one argument that denotes the radius of the circle.
+#• The Circle class must have an area method that returns the area of the circle. To implement the area method, use a precise Pi value, preferably the constant math.pi.
 
-Your implementation of all the classes will be tested by a provided code stub on several input files. Each input file contains several queries, and each query constructs an object of one of the classes and prints the area of this object to the standard output with exactly 2 decimal points.
+#Your implementation of all the classes will be tested by a provided code stub on several input files. Each input file contains several queries, and each query constructs an object of one of the classes and prints the area of this object to the standard output with exactly 2 decimal points.
 
-Constraints
-• 1 <the number of queries in one test file < 105
-• 1 ≤ the value of all parameters passed to construct the obiects ≤ 103
+#Constraints
+#• 1 <the number of queries in one test file < 105
+#• 1 ≤ the value of all parameters passed to construct the obiects ≤ 103
 
-*/
 
 #!/bin/python3
 
